@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import {useState} from "react";
+
+// Styles
+import "./reset.styles.css";
+
+// Components
+import QuoteBox from "./Components/QuoteBox/QuoteBox";
+
+// Database
+import colors from "./colors.json";
 
 function App() {
+
+  // Hook
+  const [color, setColor] = useState("#FF7272");
+
+  const randomColor = () => {
+    const randomColor = Math.floor(Math.random()*10);
+    setColor(colors[randomColor].hex)
+  };
+
+  const styles = {
+    background: color
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="containerppal" style={styles}>
+      <QuoteBox randomColor={randomColor} color={color}/>
     </div>
   );
 }

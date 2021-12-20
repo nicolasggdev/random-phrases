@@ -1,0 +1,37 @@
+[
+    {
+    "color": "black",
+    "hex": "#191919"
+    },
+    {
+    "color": "red",
+    "hex": "#FF1700"
+    },
+    {
+    "color": "blue",
+    "hex": "#344CB7"
+    },
+    {
+    "color": "salmon",
+    "hex": "#FF7272"
+    },
+    {
+    "color": "green",
+    "hex": "#0B4619"
+    },
+    {"color": "brown",
+    "hex": "#a52a2a"
+    },
+    {"color": "turquoise",
+    "hex": "#71DFE7"
+    },
+    {"color": "gray",
+        "hex": "#B2B1B9"
+    },
+    {"color": "pink",
+        "hex": "#FD367E"
+    },
+    {"color": "teal",
+        "hex": "#3E8E7E"
+    }
+]

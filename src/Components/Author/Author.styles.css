@@ -1,0 +1,6 @@
+.author-container{
+    height: 15%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
