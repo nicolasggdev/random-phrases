@@ -2,6 +2,7 @@ import {useState} from "react";
 
 // Styles
 import "./reset.styles.css";
+import "./App.css"
 
 // Components
 import QuoteBox from "./Components/QuoteBox/QuoteBox";

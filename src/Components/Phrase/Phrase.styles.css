@@ -20,3 +20,11 @@
     margin: 1rem;
 }
 
+@media only screen and (max-width:576px){
+    .phrase-container{
+        height: 65%;
+    }
+    .quote-left svg{
+        width: 5rem;
+    }
+}
