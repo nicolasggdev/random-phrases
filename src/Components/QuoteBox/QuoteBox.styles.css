@@ -1,32 +1,17 @@
-.Quote-Box{
-    background-color: white;
-    margin: auto;
-    height: 13rem;
-    width: 50rem;
-    border-radius: 1rem;
-    padding: 1rem;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+.Quote-Box {
+  background-color: white;
+  margin: auto;
+  width: 80%;
+  height: 40%;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-@media only screen and (max-width:576px){
-    .Quote-Box{
-        width: 80%;
-        height: 40%;
-    }
-}
-
-@media only screen and (max-width:768px){
-    .Quote-Box{
-        width: 80%;
-        height: 40%;
-    }
-}
-
-@media only screen and (max-width:992px){
-    .Quote-Box{
-        width: 80%;
-        height: 40%;
-    }
+@media only screen and (max-width: 300px) {
+  .Quote-Box {
+    height: 50%;
+  }
 }
